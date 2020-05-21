@@ -1,0 +1,7 @@
+{% block content  %}
+    {% if image != '' %}
+        <img id="profile-header-image" src="{{ image.url }}" class="profile-image-header">
+    {% else %}
+         <img id="profile-header-image" class="profile-image-header hide">
+    {% endif %}
+{% endblock %}
